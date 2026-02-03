@@ -6,8 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/vanderbilt-state-tax-policy-academy-2025' : '',
-  assetPrefix: isProd ? '/vanderbilt-state-tax-policy-academy-2025' : '',
+  basePath: isProd ? '/ri-ctc-calculator-webinar' : '',
+  assetPrefix: isProd ? '/ri-ctc-calculator-webinar' : '',
 }
 
 module.exports = nextConfig
