@@ -22,7 +22,7 @@ export default function UsersSlide() {
     { name: 'Amplifi', logo: '/logos/organizations/amplifi.png' },
     { name: 'Mirza', logo: '/logos/organizations/mirza.png' },
     { name: 'Center for Growth and Opportunity', logo: '/logos/organizations/cgo.jpg' },
-    { name: 'UN Digital Public Goods Alliance', logo: '/logos/organizations/dpga-official.png', isUN: true },
+    { name: 'UN Digital Public Goods Alliance', logo: '/logos/organizations/dpga-official.png' },
   ];
 
   return (
@@ -31,24 +31,19 @@ export default function UsersSlide() {
         <SlideTitle>Who uses PolicyEngine?</SlideTitle>
       </SlideHeader>
 
-      <div className="w-full mt-4">
-        <div className="grid grid-cols-4 gap-x-6 gap-y-8 w-full px-8">
+      <div className="w-full mt-2">
+        <div className="grid grid-cols-4 gap-x-4 gap-y-4 w-full px-8">
           {organizations.map((org, idx) => (
             <div
               key={idx}
-              className={`
-                flex items-center justify-center
-                ${org.isUN ? 'col-span-4' : ''}
-              `}
-              style={{
-                height: org.isUN ? '70px' : '70px'
-              }}
+              className="flex items-center justify-center"
+              style={{ height: '60px' }}
             >
               <Image
                 src={assetPath(org.logo)}
                 alt={org.name}
-                width={org.isUN ? 200 : 120}
-                height={70}
+                width={100}
+                height={55}
                 className="object-contain"
               />
             </div>

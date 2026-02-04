@@ -1,21 +1,17 @@
 import { SlideshowConfig } from '@/lib/types';
-import CoverSlide from './slides/CoverSlide';
-import IntroSlide from './slides/IntroSlide';
 import WhatIsPolicyEngineSlide from './slides/WhatIsPolicyEngineSlide';
+import IntroSlide from './slides/IntroSlide';
 import UsersSlide from './slides/UsersSlide';
 import HowDoesItWorkSlide from './slides/HowDoesItWorkSlide';
 import MicrosimIntroSlide from './slides/MicrosimIntroSlide';
 import MicrosimBaselineSlide from './slides/MicrosimBaselineSlide';
 import MicrosimAggregateSlide from './slides/MicrosimAggregateSlide';
 import OurApproachSlide from './slides/OurApproachSlide';
-import CalculatorStorySlide from './slides/CalculatorStorySlide';
-import NiskanenCommissionSlide from './slides/NiskanenCommissionSlide';
-import GovernorProposalSlide from './slides/GovernorProposalSlide';
-import ImpactSummarySlide from './slides/ImpactSummarySlide';
-import CalculatorFeaturesSlide from './slides/CalculatorFeaturesSlide';
-import DemoIntroSlide from './slides/DemoIntroSlide';
+import CalculatorOverviewSlide from './slides/CalculatorOverviewSlide';
+import McKeeProposalSlide from './slides/McKeeProposalSlide';
 import CalculatorDemoSlide from './slides/CalculatorDemoSlide';
 import WhatsNextSlide from './slides/WhatsNextSlide';
+import ResourcesSlide from './slides/ResourcesSlide';
 import EndSlide from './slides/EndSlide';
 
 export const riCtcWebinar2026Config: SlideshowConfig = {
@@ -25,7 +21,6 @@ export const riCtcWebinar2026Config: SlideshowConfig = {
   date: '5 February 2026',
   location: 'Virtual Webinar',
   slides: [
-    CoverSlide,
     IntroSlide,
     WhatIsPolicyEngineSlide,
     UsersSlide,
@@ -34,13 +29,10 @@ export const riCtcWebinar2026Config: SlideshowConfig = {
     MicrosimBaselineSlide,
     MicrosimAggregateSlide,
     OurApproachSlide,
-    CalculatorStorySlide,
-    NiskanenCommissionSlide,
-    GovernorProposalSlide,
-    ImpactSummarySlide,
-    CalculatorFeaturesSlide,
-    DemoIntroSlide,
+    CalculatorOverviewSlide,
+    McKeeProposalSlide,
     CalculatorDemoSlide,
+    ResourcesSlide,
     WhatsNextSlide,
     EndSlide,
   ],

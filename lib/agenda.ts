@@ -9,5 +9,5 @@ export interface AgendaItem {
 }
 
 export const agenda: AgendaItem[] = [
-  { time: '2:00 PM - 2:45 PM', title: 'Rhode Island Child Tax Credit Calculator Webinar', speakerIds: ['david-trimmer', 'pavel-makarchuk'], slideshowId: 'ri-ctc-webinar-2026', type: 'talk', hasQA: true },
+  { time: '2:00 PM - 2:45 PM', title: 'Rhode Island Child Tax Credit Calculator Webinar', speakerIds: ['pavel-makarchuk', 'david-trimmer'], slideshowId: 'ri-ctc-webinar-2026', type: 'talk', hasQA: true },
 ];

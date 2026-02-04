@@ -9,41 +9,26 @@ export default function WhatsNextSlide() {
     <Slide>
       <div className="max-w-7xl">
         <SlideHeader>
-          <SlideTitle>What's next for Rhode Island</SlideTitle>
+          <SlideTitle>What's next</SlideTitle>
         </SlideHeader>
 
-        <SlideContent size="lg">
+        <SlideContent size="md">
           <div className="space-y-6 text-left">
             <div>
-              <p className="font-semibold text-pe-dark mb-3">Legislative process</p>
-              <p className="ml-6">Governor McKee's FY2027 budget proposal is under review</p>
-            </div>
-
-            <div>
-              <p className="font-semibold text-pe-dark mb-3">Calculator enhancements</p>
-              <ul className="list-disc list-inside ml-6 space-y-2">
-                <li>Additional reform scenarios</li>
-                <li>Enhanced demographic breakdowns</li>
-                <li>Regional impact analysis</li>
+              <p className="font-bold text-pe-teal text-4xl mb-3">Rhode Island</p>
+              <ul className="list-disc list-inside ml-6 space-y-2 text-xl">
+                <li>Track and analyze any CTC proposals from the legislature</li>
+                <li>Model other proposals from the Governor's budget (high income surtax, Social Security exemption)</li>
               </ul>
             </div>
 
             <div>
-              <p className="font-semibold text-pe-dark mb-3">Research and analysis</p>
-              <ul className="list-disc list-inside ml-6 space-y-2">
-                <li>Detailed impact reports as legislation evolves</li>
-                <li>Comparison with other state CTCs</li>
-                <li>Long-term fiscal projections</li>
+              <p className="font-bold text-pe-teal text-4xl mb-3">Nationwide</p>
+              <ul className="list-disc list-inside ml-6 space-y-2 text-xl">
+                <li>Launch 2026 State Legislative Dashboard displaying impacts of bills and proposals we're tracking</li>
+                <li>Partner with organizations interested in building policy exploration tools for their states</li>
+                <li>Update 2025 individual income tax model for all 50 states by end of February</li>
               </ul>
-            </div>
-
-            <div>
-              <p className="font-semibold text-pe-dark mb-3">Resources</p>
-              <div className="ml-6 space-y-2 text-pe-teal">
-                <p>Calculator: policyengine.org/us/rhode-island-ctc-calculator</p>
-                <p>Analysis: policyengine.org/us/research/ri-governor-mckee-child-tax-credit</p>
-                <p>Full story: policyengine.org/us/research/ri-ctc-calculator-press-release</p>
-              </div>
             </div>
           </div>
         </SlideContent>

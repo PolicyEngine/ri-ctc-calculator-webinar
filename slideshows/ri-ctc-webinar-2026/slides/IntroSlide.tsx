@@ -16,8 +16,7 @@ export default function IntroSlide() {
           <ul className="list-disc list-inside space-y-4 text-left">
             <li>Introduction to PolicyEngine</li>
             <li>How we built the Rhode Island CTC Calculator</li>
-            <li>Governor McKee's child tax credit proposal</li>
-            <li>Live demonstration of the calculator</li>
+            <li>Live demonstration of the calculator, including Gov. Dan McKee's CTC proposal</li>
             <li>What's next for Rhode Island tax policy analysis</li>
             <li>Q&A</li>
           </ul>

@@ -45,10 +45,10 @@ export default function Home() {
 
         {/* Title */}
         <h1 className="text-5xl font-bold text-white mb-4">
-          State Tax Policy Academy
+          Rhode Island Child Tax Credit Calculator Webinar
         </h1>
         <p className="text-xl text-white/80 mb-4">
-          10 November 2025 • Vanderbilt Prenatal-to-3 Policy Impact Center
+          February 5th, 2026 • PolicyEngine
         </p>
         <p className="text-lg text-white/60 mb-12">
           Click to view presentation slides

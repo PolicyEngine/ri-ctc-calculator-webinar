@@ -80,14 +80,14 @@ export const speakersById: Record<string, Speaker> = {
   'david-trimmer': {
     id: 'david-trimmer',
     name: 'David Trimmer',
-    title: 'Policy Research Fellow',
+    title: 'Research Analyst',
     organisation: 'PolicyEngine',
     headshotUrl: '/headshots/david-trimmer.jpg'
   },
   'pavel-makarchuk': {
     id: 'pavel-makarchuk',
     name: 'Pavel Makarchuk',
-    title: 'Policy Modelling Manager',
+    title: 'Chief of Staff',
     organisation: 'PolicyEngine',
     headshotUrl: '/headshots/pavel-makarchuk.jpg'
   },
