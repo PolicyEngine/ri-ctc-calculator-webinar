@@ -7,7 +7,7 @@ import SlideContent from '@/components/SlideContent';
 export default function WhatsNextSlide() {
   return (
     <Slide>
-      <div className="max-w-7xl">
+      <div className="">
         <SlideHeader>
           <SlideTitle>What's next</SlideTitle>
         </SlideHeader>

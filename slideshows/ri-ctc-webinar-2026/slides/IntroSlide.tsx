@@ -7,7 +7,7 @@ import SlideContent from '@/components/SlideContent';
 export default function IntroSlide() {
   return (
     <Slide>
-      <div className="max-w-7xl">
+      <div className="">
         <SlideHeader>
           <SlideTitle>What we'll cover</SlideTitle>
         </SlideHeader>
