@@ -95,3 +95,7 @@ The slides are automatically deployed to GitHub Pages when changes are pushed to
 - **Net cost**: $35.2 million (2026)
 - **Families benefiting**: 36.5%
 - **Children affected**: ~180,000
+
+## License
+
+Code in this repository is released under the [MIT License](LICENSE). Original text and figures are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) with attribution to PolicyEngine. Third-party data and materials keep their own terms.
